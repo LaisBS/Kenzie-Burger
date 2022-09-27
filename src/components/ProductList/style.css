@@ -1,0 +1,35 @@
+#containerCards {
+  list-style: none;
+  height: 365px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  width: 95vw;
+  padding: 0%;
+  margin: 0%;
+  gap: 15px;
+}
+.products {
+  width: 300px;
+  height: 335px;
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-left: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+}
+@media only screen and (min-width: 950px) {
+  #containerCards {
+    height: 50vw;
+    overflow: hidden;
+    flex-wrap: wrap;
+    width: 69vw;
+    margin-left: 8vw;
+    margin-top: 15px;
+  }
+  .products {
+    margin-left: 0px;
+    height: 360px;
+  }
+}

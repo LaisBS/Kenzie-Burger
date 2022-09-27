@@ -1,0 +1,26 @@
+.itens {
+  width: 300px;
+  height: 335px;
+}
+.img {
+  width: 294px;
+  height: 150px;
+  background-color: #f5f5f5;
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-end;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.text span {
+  font-size: 12px;
+  color: #828282;
+}
+.text p {
+  color: #27ae60;
+}
